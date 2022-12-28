@@ -3,13 +3,13 @@ import ListItems from "./ListItems";
 
 const List = ({ listx }) => {
   return (
-    // code here
+    // code here
     <>
       <ul>
         <li id='list' className='items'>
-          {listx.map((list) => {
-            <ListItems valueX={list} />;
-          })}
+          {listx.map((list) => (
+            <ListItems valuex={list} />
+          ))}
         </li>
       </ul>
     </>
